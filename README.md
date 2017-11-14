@@ -23,3 +23,7 @@ Have two pointers. One traverses the usual one step, while the other traverses t
 2. Next, the second half of the list needs to be reversed. For more detail, you can look at my code or google reverse linked list algorithm. Basically you change the direction of the pointer. You will need some buffer values so you can traverse to the next node in the list.
 
 3. Finally, compare the reversed second half of the list with the first half and return true if all values are equal, otherwise, false.
+
+## addTwoHugeNumbers
+**You're given 2 huge integers represented by linked lists. Each linked list element is a number from 0 to 9999 that represents a number with exactly 4 digits. The represented number might have leading zeros. Your task is to add up these huge integers and return the result in the same format.**
+
