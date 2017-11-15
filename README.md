@@ -35,3 +35,4 @@ Here are the general steps I followed.
 
 2. Tricky part is appending zeros. Each number is supposed to be 4 digits long with appended zeroes. Zeroes must be appended when making the two giant number strings that will eventually be added together *AND* for the sum of the addition of the two giant number strings. This part was somewhat confusing for me, but looking over the test cases helped clear things up. Basically, the length of the sum of the two giant numbers needs to be divisible by four and if it isn't zeros have to be appended to make the length divisible by 4.
 
+3. There is a list comprehension I do at the end which creates a list from the total number string grouped into separate digits of four. The strings are converted back into integers with leading zeroes taken out.
