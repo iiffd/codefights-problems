@@ -27,7 +27,7 @@ Have two pointers. One traverses the usual one step, while the other traverses t
 ## addTwoHugeNumbers
 *You're given 2 huge integers represented by linked lists. Each linked list element is a number from 0 to 9999 that represents a number with exactly 4 digits. The represented number might have leading zeros. Your task is to add up these huge integers and return the result in the same format.*
 
-This one is pretty straightforward compared to the last problem. There are no time or space limitations so there are a number of ways to solve this problem. I managed to get a pretty slim/concise solution but found another person outdid me by 10 lines, which he did by adding 0s in the while loop, whereas I separate out to separate function. That same person also returned the answer like a linked list, which I didn't even think to try.
+This one is pretty straightforward compared to the last problem. There are no time or space limitations so there are a number of ways to solve this problem. I managed to get a pretty slim/concise solution but found another person outdid me by 10 lines, which he did by adding 0 buffer strings in the while loop, whereas I separate out to another function. That same person also returned the answer as a linked list, which I didn't even think to try.
 
 Here are the general steps I followed.
 
