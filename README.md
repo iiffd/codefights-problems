@@ -52,7 +52,15 @@ Anyways, you live and learn. Next time I'll spend more time planning before I st
 
 2. I initialize the header (which will return the completed list at the end of the function) in the while loop, which requires a separate if check to look for the first loop. This is pretty ugly and I thought a long time about a more elegant solution but wasn't able to come up with one. One of the top solutions gets around this by creating a new ListNode object before the while loop. Again, for some reason I had a mental block where I thought using the class object was off limits for the question. I also assumed that if I initialized the object with None, that none would be returned with the rest of the list and alter the linked list results, but I guess this isn't the case.
 
-3. Depending which value is greater, the pointers get rearranged. I create a separate function for this called **movePointers**. 
+3. Depending which value is greater, the pointers get rearranged. I create a separate function for this called **movePointers**.
 
 4. In case one of the stacks of the linked list is empty, I create a check and simply attach the the pointer to the rest of the stack that isn't empty. I create a separate function for this called **connectEnds**.
+
+## reverseNodesInKGroups
+
+*Note: Your solution should have O(n) time complexity, where n is the number of element in l, and O(1) additional space complexity, since this is what you would be asked to accomplish in an interview.*
+
+*Given a linked list l, reverse its nodes k at a time and return the modified list. k is a positive integer that is less than or equal to the length of l. If the number of nodes in the linked list is not a multiple of k, then the nodes that are left out at the end should remain as-is.*
+
+*You may not alter the values in the nodes - only the nodes themselves can be changed.*
 
